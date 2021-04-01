@@ -1,0 +1,34 @@
+﻿<Window x:Class="FigScene.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FigScene"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="0" Name="BigImage" Stretch="Uniform"/>
+        <ListBox ItemsSource="{Binding}"
+         Name ="FigList"
+         HorizontalContentAlignment="Stretch"
+         ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+         Grid.Column="1"
+         SelectionChanged="MainListBox_SelectionChanged">
+            <ListBox.Resources>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="BorderBrush" Value="Silver" />
+                </Style>
+            </ListBox.Resources>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Image Source="{Binding Image}" Stretch="Uniform"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>
