@@ -1,7 +1,7 @@
-# FigureSceneSmallCodePreview
-## Small code preview
+# FigureSceneSmallCodeExample
+## Small code example
 
-### This is only a small example of code. This program works correctly, but it's not recommended to use in life.
+### This is only a small code example. This program works correctly, but it's not recommended to use in life.
 
 It contains some classes for drawing any figure, you want.
 
