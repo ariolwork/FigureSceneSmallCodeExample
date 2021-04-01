@@ -1,7 +1,7 @@
 # FigureSceneSmallCodeExample
 ## Small code example
 
-### This is only a small code example. This program works correctly, but it's not recommended to use in life.
+### The application is intended for the demonstration of C# capabilities. This program works correctly, but it's not recommended to use in life.
 
 It contains the number of classes for drawing such shapes, as presented below.
 
