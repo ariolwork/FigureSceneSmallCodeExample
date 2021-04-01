@@ -7,4 +7,5 @@ It contains some classes for drawing any figure, you want.
 
 ![image](https://github.com/ariolwork/FigureSceneSmallCodePreview/blob/main/images/1.png)
 ![image](https://github.com/ariolwork/FigureSceneSmallCodePreview/blob/main/images/2.png)
-
+![image](https://github.com/ariolwork/FigureSceneSmallCodePreview/blob/main/images/3.png)
+![image](https://github.com/ariolwork/FigureSceneSmallCodePreview/blob/main/images/4.png)
