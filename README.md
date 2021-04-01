@@ -3,7 +3,7 @@
 
 ### This is only a small code example. This program works correctly, but it's not recommended to use in life.
 
-It contains some classes for drawing any figure, you want.
+It contains the number of classes for drawing such shapes, as presented below.
 
 ![image](https://github.com/ariolwork/FigureSceneSmallCodePreview/blob/main/images/1.png)
 ![image](https://github.com/ariolwork/FigureSceneSmallCodePreview/blob/main/images/2.png)
